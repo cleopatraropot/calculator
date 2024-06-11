@@ -7,7 +7,6 @@ function App() {
   const [displayValue, setDisplayValue] = useState('');
   const [result, setResult] = useState('');
 
-
   const handleButtonClick = (text: string) => {
     if (text === '=') {
       try {

@@ -14,7 +14,7 @@ export const CalculatorButton: React.FC<CalculatorElProps> = ({ text, color, sha
     const style = {
         backgroundColor: color,
         borderRadius: shape === 'round' ? '50%' : '40px',
-        width: width || (shape === 'round' ? '82px' : '164px'),
+        width: width || (shape === 'round' ? '82px' : '174px'),
 
     };
 
