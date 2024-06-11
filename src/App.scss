@@ -5,7 +5,7 @@
   user-select: none;
 
   .iphone-frame {
-    border: 14px solid black;
+    border: 14px solid #1A202C;
     border-radius: 12px;
     background-color: black;
 
@@ -38,33 +38,6 @@
         flex-wrap: wrap-reverse;
         gap: 10px 7px;
         padding-left: 12px;
-        .el {
-          cursor: pointer;
-          width: 82px;
-          height: 82px;
-          background-color: #bbb;
-          border-radius: 50%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 23px;
-          font-weight: bold;
-          color: white;
-        }
-        .el-l {
-          cursor: pointer;
-          width: 174px;
-          height: 82px;
-          background-color: #bbb;
-          border-radius: 40px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 23px;
-          font-weight: bold;
-          color: white;
-
-        }
       }
     }
   }
