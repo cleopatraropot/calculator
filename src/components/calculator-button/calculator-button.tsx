@@ -6,17 +6,24 @@ interface CalculatorElProps {
     color: string;
     shape: 'round' | 'oval';
     width?: string;
+    onClick: (text: string) => void;
+
 }
 
-export const CalculatorButton: React.FC<CalculatorElProps> = ({ text, color, shape, width }) => {
+export const CalculatorButton: React.FC<CalculatorElProps> = ({ text, color, shape, width, onClick }) => {
     const style = {
         backgroundColor: color,
         borderRadius: shape === 'round' ? '50%' : '40px',
-        width: width || (shape === 'round' ? '82px' : '164px'),
+        width: width || (shape === 'round' ? '82px' : '174px'),
+
+    };
+
+    const handleClick = () => {
+        onClick(text);
     };
 
     return (
-        <div style={style} className={`el ${shape}`}>
+        <div style={style} className={`el ${shape}`} onClick={handleClick}>
             <div className="el">{text}</div>
         </div>
     );

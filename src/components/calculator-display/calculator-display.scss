@@ -1,0 +1,20 @@
+.right-content-number {
+  padding: 20px 10px;
+  color: white;
+
+  .calculate {
+    font-size: 16px;
+    text-align: right;
+    margin: 0;
+    padding-right: 5px;
+    height: 18px;
+  }
+
+  .result {
+    font-size: 60px;
+    text-align: right;
+    margin: 0;
+    font-weight: lighter;
+    height: 71px;
+  }
+}
