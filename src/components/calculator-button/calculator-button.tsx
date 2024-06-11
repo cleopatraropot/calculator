@@ -1,5 +1,5 @@
 import React from 'react';
-import './calculator-el.scss';
+import './calculator-button.scss';
 
 interface CalculatorElProps {
     text: string;
@@ -8,7 +8,7 @@ interface CalculatorElProps {
     width?: string;
 }
 
-const CalculatorEl: React.FC<CalculatorElProps> = ({ text, color, shape, width }) => {
+export const CalculatorButton: React.FC<CalculatorElProps> = ({ text, color, shape, width }) => {
     const style = {
         backgroundColor: color,
         borderRadius: shape === 'round' ? '50%' : '40px',
@@ -21,5 +21,3 @@ const CalculatorEl: React.FC<CalculatorElProps> = ({ text, color, shape, width }
         </div>
     );
 };
-
-export default CalculatorEl;
