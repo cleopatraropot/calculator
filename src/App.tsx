@@ -6,6 +6,8 @@ function App() {
   return (
       <div>
         <div className="container">
+          <h1>This is a calculator!</h1>
+          <h2>Use this :)</h2>
           <div className="iphone-frame">
             <div className="calculator">
               <div className="right-content-number">
@@ -36,7 +38,6 @@ function App() {
             </div>
           </div>
         </div>
-
       </div>
   );
 }

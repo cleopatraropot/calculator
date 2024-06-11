@@ -2,12 +2,14 @@
   width: 400px;
   margin: auto;
   height: auto;
-  user-select: none;
+  text-align: center;
+
 
   .iphone-frame {
     border: 14px solid #1A202C;
     border-radius: 12px;
     background-color: black;
+    user-select: none;
 
     .calculator{
       background-color: #1A202C;
