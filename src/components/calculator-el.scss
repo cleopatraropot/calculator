@@ -1,0 +1,19 @@
+.el {
+  cursor: pointer;
+  height: 82px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+.round {
+  width: 82px;
+}
+
+.oval {
+  width: 174px;
+}
