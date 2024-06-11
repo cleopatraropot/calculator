@@ -12,7 +12,6 @@ function App() {
     if (text === '=') {
       try {
         const evaluationResult = evaluate(displayValue);
-        setDisplayValue(evaluationResult.toString());
         setResult(evaluationResult.toString());
       } catch (error) {
         setDisplayValue('Error');
@@ -51,7 +50,7 @@ function App() {
                 <CalculatorButton text="7" color="#3E4047" shape="round" onClick={handleButtonClick}/>
                 <CalculatorButton text="8" color="#3E4047" shape="round" onClick={handleButtonClick}/>
                 <CalculatorButton text="9" color="#3E4047" shape="round" onClick={handleButtonClick}/>
-                <CalculatorButton text="x" color="#EA9B3E" shape="round" onClick={handleButtonClick}/>
+                <CalculatorButton text="*" color="#EA9B3E" shape="round" onClick={handleButtonClick}/>
                 <CalculatorButton text="C" color="#C1C1C1" shape="round" onClick={handleButtonClick}/>
                 <CalculatorButton text="DEL" color="#C1C1C1" shape="round" onClick={handleButtonClick}/>
                 <CalculatorButton text="%" color="#C1C1C1" shape="round" onClick={handleButtonClick}/>
